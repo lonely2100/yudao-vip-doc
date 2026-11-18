@@ -51,7 +51,6 @@ python -m http.server 8000
 | 类型 | 数量 | 说明 |
 | --- | ---: | --- |
 | `.html` | 383 | 382 篇文章 + 1 个 `index.html` 首页 |
-| `.js` | 3 | `common/left_tree.js`（左侧目录树）、`common/menu_json.js`（目录数据）、`common/right_toc.js`（右侧标题目录） |
 | 体积 | 约 235 MB | 单篇最大 5.7 MB（`萌新必读/功能列表`） |
 
 每篇 HTML 都把样式、图片等资源内联在文件内部，单篇可独立打开、独立迁移，不依赖外链。
